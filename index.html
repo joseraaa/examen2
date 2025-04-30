@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Encuesta de Preferencias de Color</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>Panel de Resultados de Encuesta</h1>
+  </header>
+
+  <main>
+    <section class="filtros">
+      <label for="edadFiltro"><strong>Filtrar por rangos de edad:</strong></label><br />
+      <select id="edadFiltro" multiple size="4">
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-45">36-45</option>
+        <option value="46+">46+</option>
+        <option value="Desconocido">Desconocido</option>
+      </select>
+      <br>
+      <small>Usa Ctrl (Windows) o Cmd (Mac) para seleccionar varios rangos</small>
+    </section>
+
+    <section class="graficos">
+      <div class="grafico">
+        <h3>Preferencias Generales de Color</h3>
+        <canvas id="chartGeneral"></canvas>
+      </div>
+
+      <div class="grafico">
+        <h3>Preferencias por Rango de Edad</h3>
+        <canvas id="chartEdad"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Encuesta Interactiva de Colores</p>
+  </footer>
+
+  <!-- Librería Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Script propio -->
+  <script src="script.js"></script>
+</body>
+</html>
