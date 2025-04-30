@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4f46e5;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1.5rem;
+  }
+  
+  .filtros {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filtros label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  #edadFiltro {
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  #edadFiltro option {
+    padding: 4px;
+  }
+  
+  .filtros small {
+    display: block;
+    margin-top: 8px;
+    color: #666;
+    font-size: 12px;
+  }
+  
+  
+  .filtros select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .graficos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .grafico {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 300px;
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e5e7eb;
+    color: #555;
+    margin-top: 2rem;
+  }
+  
+  
